@@ -31,9 +31,9 @@ const formatValue = (
 }
 
 
-// formatValue("hello");
-// formatValue(5);
-// formatValue(true);
+formatValue("hello");
+formatValue(5);
+formatValue(true);
 
 
 
@@ -67,8 +67,8 @@ const getLength = value.length;
 }
 
 
-// getLength("typescript");     
-// getLength([10, 20, 30, 40]);
+getLength("typescript");     
+getLength([10, 20, 30, 40]);
 
 
 
@@ -95,11 +95,11 @@ class Person {
 }
 
 
-// const person1 = new Person('John Doe', 30);
-// console.log(person1.getDetails());
+const person1 = new Person('John Doe', 30);
+console.log(person1.getDetails());
 
-// const person2 = new Person('Alice', 25);
-// console.log(person2.getDetails());
+const person2 = new Person('Alice', 25);
+console.log(person2.getDetails());
 
 
 
@@ -131,7 +131,7 @@ const books: Rating[] = [
 const filteredBooks = filterByRating(books);
 
 
-// console.log(filteredBooks);
+console.log(filteredBooks);
 
 
 
@@ -161,7 +161,7 @@ const users: User[] = [
   { id: 3, name: 'Rumi', email: 'rumi@example.com', isActive: true },
 ];
 
-// console.log(filterActiveUsers(users));
+console.log(filterActiveUsers(users));
 
 
 
@@ -195,7 +195,7 @@ const myBook: Book = {
   isAvailable: true,
 };
 
-// printBookDetails(myBook)
+printBookDetails(myBook)
 
 
 
@@ -245,7 +245,7 @@ const array1 = [1, 2, 3, 4, 5];
 const array2 = [3, 4, 5, 6, 7];
 
 
-// console.log(getUniqueValues(array1, array2));
+console.log(getUniqueValues(array1, array2));
 
 
 
@@ -277,4 +277,4 @@ const products: Product[] = [
 ];
 
 
-// console.log(calculateTotalPrice(products)); 
+console.log(calculateTotalPrice(products)); 
